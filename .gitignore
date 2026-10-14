@@ -1,0 +1,22 @@
+# Секреты
+.env
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Локальные данные: векторная база и кеш ответов (создаются при запуске)
+chroma_db/
+cashe/
+*.db
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
